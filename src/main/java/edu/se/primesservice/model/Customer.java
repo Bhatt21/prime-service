@@ -1,5 +1,10 @@
 package edu.se.primesservice.model;
 
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 @Table
 @Entity
 public class Customer {
@@ -8,7 +13,7 @@ public class Customer {
     private String password;
 
     public Customer() {
-        
+
     }
 
     public Customer(String username, String password) {
