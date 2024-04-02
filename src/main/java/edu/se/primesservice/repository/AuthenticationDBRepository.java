@@ -1,7 +1,8 @@
+package edu.se.primesservice.repository;
 
+import edu.se.primesservice.model.Customer;
 
-
-@repository
+@Repository
 public interface AuthenticationDBRepository
     extends CrudRepository<Customer, String>
 {
