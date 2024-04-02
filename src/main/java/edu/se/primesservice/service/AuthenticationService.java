@@ -2,6 +2,7 @@ package edu.se.primesservice.service;
 
 
 import edu.se.primesservice.model.Customer;
+import edu.se.primesservice.repository.AuthenticationDBRepository;
 import edu.se.primesservice.repository.IAuthenticationRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
